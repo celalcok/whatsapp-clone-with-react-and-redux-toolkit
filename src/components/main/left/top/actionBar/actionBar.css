@@ -1,0 +1,31 @@
+.action-bar{
+    background-color: var(--color-first);
+    grid-area: ab;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-areas: "img stt nc oc";
+    justify-items:center;
+    align-items: center;
+    color: var(--color-second);
+    border-right: 1px solid var(--color-first-dark);
+}
+.profile-container{
+    grid-area: img;
+    text-align: right;
+    
+}
+#personProfile{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-self: end;
+    cursor: pointer;
+}
+
+#personStatus{
+    cursor: pointer;
+}
+
+#newChat{
+    cursor: pointer;
+}

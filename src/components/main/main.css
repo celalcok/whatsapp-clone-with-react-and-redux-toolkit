@@ -1,0 +1,27 @@
+:root{
+    --color-first: #f0f2f5;
+    --color-first-dark: #cfcfcf;
+    --color-second:#52656f;
+    --color-second-dark:#292c2e;
+    --color-third:#fff;
+    --color-background-message-going:#d9fdd2;
+    --color-dark:#1d262a;
+    --color-darker:#0b141a;
+}
+
+.main{
+    display: grid;
+    position: relative;
+    grid-template-areas: 
+    "lt rt"
+    "lt rm"
+    "lm rm" 
+    "lm rb";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 60px 60px 76% 60px;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+}
+
+

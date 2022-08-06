@@ -1,0 +1,45 @@
+.status{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color:var(--color-darker);
+    visibility: hidden;
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+.status.show{
+    visibility: visible;
+}
+.status.hide{
+    animation-name: hide-status;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes hide-status {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+}
+
+.btn-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

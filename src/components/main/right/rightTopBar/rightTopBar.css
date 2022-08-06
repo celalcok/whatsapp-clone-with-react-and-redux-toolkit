@@ -1,0 +1,25 @@
+.right-topbar{
+    grid-area: rt;
+    display: grid;
+    grid-template-columns: 60px auto 40px 40px 40px 40px 40px ;
+    grid-template-rows: 100%;
+    justify-items: center;
+    align-items: center;
+    padding: 0 10px;
+    color: var(--color-second);
+    background-color: var(--color-first);
+}
+.right-topbar .profile-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-self: start;
+}
+.right-topbar .profile-name{
+    color: var(--color-second-dark);
+    justify-self: start;
+}
+
+.sep{
+    font-weight: 200;
+}

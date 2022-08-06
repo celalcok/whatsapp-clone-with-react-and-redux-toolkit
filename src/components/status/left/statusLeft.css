@@ -1,0 +1,64 @@
+.status-left{
+    background-color: var(--color-dark);
+    display:grid;
+    grid-template-rows: 25% 75% 10%;
+    grid-template-columns: 100% ;
+    grid-template-areas: "t" "b" "f";
+    padding: 20px;
+}
+.status-left header{
+    color: var(--color-third);
+    grid-area: t;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "img title" "img txt";
+    justify-items: start;
+    align-items: start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    gap: 10px;
+    
+}
+.status-left .status-profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    grid-area: img;
+    justify-items: center;
+    align-self: center;
+}
+.status-left .status-title{
+    justify-self: start;
+    align-self: end;
+    grid-area: title;
+}
+.status-left .status-text{
+    grid-area: txt;
+    justify-self: start;
+    align-self: start;
+    color: rgba(255, 255, 255, 0.3);
+}
+.status-left aside{
+    color: var(--color-third);
+    grid-area: b;
+}
+.status-left aside .status-text{
+    color: rgba(255, 255, 255, 0.3);
+    margin-top:5px;
+    text-transform: uppercase;
+}
+.status-left footer{
+    grid-area: f;
+
+}
+hr{
+    border-top:2px solid var(--color-third)
+}
+
+.status-left .status-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}

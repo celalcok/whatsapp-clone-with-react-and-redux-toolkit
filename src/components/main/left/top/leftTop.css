@@ -1,0 +1,9 @@
+.left-top{
+    grid-area: lt;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "ab" "sb";
+    grid-template-rows: 1fr 1fr;
+}

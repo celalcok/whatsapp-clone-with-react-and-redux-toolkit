@@ -1,0 +1,4 @@
+.message-list{
+    grid-area: lm;
+    overflow-y: scroll;
+}

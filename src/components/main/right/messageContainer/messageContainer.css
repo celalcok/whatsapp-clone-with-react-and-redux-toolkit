@@ -1,0 +1,17 @@
+.message-container{
+    grid-area: rm;
+    background: rgba(255, 255, 255,0.9) url(https://cdn.wallpapersafari.com/27/32/jt4AoG.jpg);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.text-row{
+    margin: 10px 50px;
+    display: block;
+}
+.message-container .text { 
+    background-color: var(--color-background-message-going);
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}   

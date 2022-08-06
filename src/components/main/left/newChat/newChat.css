@@ -1,0 +1,39 @@
+.new-chat {
+    background: #f0f2f5;
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    transform: translateX(-100%);
+
+  }
+
+  .new-chat.show {
+      animation-name: show-new-chat;
+      animation-fill-mode: forwards;
+      animation-duration: 0.5s;
+  }
+
+  @keyframes show-new-chat {
+    0%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0);
+      
+    }
+}
+.new-chat.hide {
+    animation-name: hide-new-chat;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+}
+
+@keyframes hide-new-chat {
+    0%{
+      transform: translateX(0);
+  }
+  100%{
+      transform: translateX(-100%);
+      
+    }
+}
