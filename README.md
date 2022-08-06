@@ -1,6 +1,6 @@
-# Whatsapp Clone With React, Redux-toolkit
-![whatsapp-1](whatsapp_clone_1.gif "Whatsapp Clone with React, Redux-toolkit")
-![whatsapp-2](whatsapp_clone_2.gif "Whatsapp Clone with React, Redux-toolkit")
+# Whatsapp Web Clone With React, Redux-toolkit
+![whatsapp-1](whatsapp_clone_1.gif "Whatsapp Web Clone with React, Redux-toolkit")
+![whatsapp-2](whatsapp_clone_2.gif "Whatsapp Web Clone with React, Redux-toolkit")
 
 The application is not completed. Those who want to contribute can complete the remaining parts
 # Getting Started with Create React App
