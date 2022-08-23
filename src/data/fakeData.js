@@ -78,7 +78,7 @@ export const data = {
             id:1,
             userFrom:1,
             userTo:2,
-            content:"Hello world",
+            content:"Hello Galaxy",
             date:{
                 day:13,
                 month:6,
@@ -113,7 +113,7 @@ export const data = {
             id:4,
             userFrom:4,
             userTo:4,
-            content:"Hello nnnn",
+            content:"Hi",
             date:{
                 day:3,
                 month:6,
@@ -125,7 +125,7 @@ export const data = {
             id:5,
             userFrom:5,
             userTo:4,
-            content:"Hello pppp",
+            content:"Hello, How are you",
             date:{
                 day:15,
                 month:7,
