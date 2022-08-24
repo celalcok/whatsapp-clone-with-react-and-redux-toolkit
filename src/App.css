@@ -34,3 +34,18 @@ body{
       left:0;
   }
 }
+
+
+.message-for-main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message-for-main h1{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
